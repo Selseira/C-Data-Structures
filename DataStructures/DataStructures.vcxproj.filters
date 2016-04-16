@@ -27,6 +27,9 @@
     <ClCompile Include="Queue.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stack.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

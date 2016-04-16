@@ -146,11 +146,13 @@
     <ClCompile Include="ArrayList.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Queue.c" />
+    <ClCompile Include="Set.c" />
     <ClCompile Include="stack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="Set.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
