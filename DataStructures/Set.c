@@ -76,8 +76,10 @@ int removeSet(Set* set, const void* item) {
 			found = 1;
 		}
 	}
-	free(set->items[set->size - 1].data);
-	set->size--;
+	if (found) {
+		free(set->items[set->size - 1].data);
+		set->size--;
+	}
 	return found;
 }
 
