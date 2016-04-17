@@ -74,6 +74,7 @@ int removeSet(Set* set, const void* item) {
 				memcpy(set->items[j].data, set->items[j + 1].data, sizeof(set->items[j].data));
 			}
 			found = 1;
+			break;
 		}
 	}
 	if (found) {
